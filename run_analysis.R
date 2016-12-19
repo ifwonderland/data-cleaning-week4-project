@@ -1,3 +1,7 @@
+#Load required packages
+library(dplyr)
+
+
 #Load subject data, these are person ids
 subjectTrain <- read.table("dataset/train/subject_train.txt", col.names = c("personId"))
 subjectTest <- read.table("dataset/test/subject_test.txt", col.names = c("personId"))
